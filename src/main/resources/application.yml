@@ -1,0 +1,19 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      value-serializer: io.confluent.kafka.serializers.JsonSerializer
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      properties:
+        schema:
+          registry:
+            url: http://localhost:8081
+        auto:
+          register:
+            schemas: true
+
+yapp:
+  kafka:
+    topic:
+      game-events: "game.events"
+      tournament-events: "tournament.events"
