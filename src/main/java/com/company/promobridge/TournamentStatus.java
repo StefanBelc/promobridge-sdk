@@ -1,6 +1,6 @@
 package com.company.promobridge;
 
- enum TournamentStatus {
+public enum TournamentStatus {
     CREATED,
     STARTED,
     IN_PROGRESS,
