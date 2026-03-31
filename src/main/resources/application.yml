@@ -12,7 +12,7 @@ spring:
           register:
             schemas: true
 
-yapp:
+myapp:
   kafka:
     topic:
       game-events: "game.events"
