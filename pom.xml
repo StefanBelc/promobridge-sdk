@@ -6,7 +6,7 @@
 
     <groupId>com.company.promobridge</groupId>
     <artifactId>promobridge-sdk</artifactId>
-    <version>4.5-SNAPSHOT</version>
+    <version>4.5</version>
     <packaging>jar</packaging>
     <parent>
         <groupId>org.springframework.boot</groupId>
